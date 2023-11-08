@@ -85,7 +85,7 @@ button {
 #results {
   padding: 5%;
   text-align: center;
-  height: auto;
+  height: 41vh;
 }
 
 #value-to-convert,
@@ -97,7 +97,7 @@ button {
   font-size: 16px;
   color: #ffffff;
   text-shadow: 5px 5px 5px black;
-  margin: 0 05vw;
+  margin: 0 1vw;
 }
 
 #value-converted img {
@@ -129,6 +129,7 @@ button:active {
 
 @media screen and (max-width: 800px) and (orientation: portrait) {
 
+  
   #logo {
     width: 180px;
     height: auto;
@@ -137,6 +138,7 @@ button:active {
 
   footer {
     margin-bottom: 25px;
+    height: 30vh;
   }
 
   article {
@@ -145,6 +147,7 @@ button:active {
     background-color: #56C353;
     padding: 20px;
     width: 100vw;
+    height: 30vh;
   }
 
   article select {
@@ -180,9 +183,9 @@ button:active {
 
   #results {
     width: 100vw;
-    height: 45vh;
     padding: 2vh;
     display: inline-grid;
+    height: 40vh;
   }
 
 }
